@@ -1,36 +1,35 @@
-#IC LAB ASSIGNMENT-1
+# IC LAB ASSIGNMENT-1
 
 
-##Initialize the server
+## Initialize the server
 
 
-<code>
-  git clone https://github.com/NITHIN3387/IC_LAB_ASSIGNMENT_1.git
-  cd assignment_1
-  npm install
-</code>
-
-
-
-##Run the server
-
-
-<code>
-  npm run dev
-</code>
+```bash
+git clone https://github.com/NITHIN3387/IC_LAB_ASSIGNMENT_1.git
+cd assignment_1
+npm install
+```
 
 
 
-##API's
+## Run the server
+
+
+```bash
+npm run dev
+```
+
+
+## API's
 
 
 
-###API to register a author
+### API to register a author
 
 
-####method: POST
+#### method: POST
 
-####Params
+#### Params
 <ul>
   <li>name</li>
   <li>emailId</li>
@@ -38,74 +37,63 @@
 </ul>
 
 
-<code>
-  https://localhost:4000/auth/register
-</code>
+[link](https://localhost:4000/auth/register)
 
 
 
-###API to login for a author
+### API to login for a author
 
 
-####method: POST
+#### method: POST
 
-####Params
+#### Params
 <ul>
   <li>emailId</li>
   <li>password</li>
 </ul>
 
 
-<code>
-  https://localhost:4000/auth/login
-</code>
+[link](https://localhost:4000/auth/login)
 
 
 
-###API to get all authors
+### API to get all authors
 
 
-####method: GET
+#### method: GET
 
-<code>
-  https://localhost:4000/auth/author
-</code>
+[link](https://localhost:4000/auth/author)
 
 
 
-###API to upload a blog by author
+### API to upload a blog by author
 
 
-####method: POST
+#### method: POST
 
-####Params
+#### Params
 <ul>
   <li>blog</li>
 </ul>
 
 
-<code>
-  https://localhost:4000/blog/blogs
-</code>
+[link](https://localhost:4000/blog/blogs)
 
 
 
-###API to get all blogs of authors
+### API to get all blogs of authors
 
 
-####method: GET
-
-<code>
-  https://localhost:4000/blog/blogs
-</code>
+#### method: GET
 
 
+[link](https://localhost:4000/blog/blogs)
 
-###API to get blogs of authors by author emailId
 
 
-####method: GET
+### API to get blogs of authors by author emailId
 
-<code>
-  https://localhost:4000/blog/blogs/:emailId
-</code>
+
+#### method: GET
+
+[link](https://localhost:4000/blog/blogs/:emailId)
