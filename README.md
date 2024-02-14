@@ -28,7 +28,6 @@ npm run dev
 
 
 #### method: POST
-
 #### Params
 <ul>
   <li>name</li>
@@ -37,7 +36,7 @@ npm run dev
 </ul>
 
 
-[link](https://localhost:4000/auth/register)
+[https://localhost:4000/auth/register](https://localhost:4000/auth/register)
 
 
 
@@ -45,7 +44,6 @@ npm run dev
 
 
 #### method: POST
-
 #### Params
 <ul>
   <li>emailId</li>
@@ -53,7 +51,7 @@ npm run dev
 </ul>
 
 
-[link](https://localhost:4000/auth/login)
+[https://localhost:4000/auth/login](https://localhost:4000/auth/login)
 
 
 
@@ -62,7 +60,7 @@ npm run dev
 
 #### method: GET
 
-[link](https://localhost:4000/auth/author)
+[https://localhost:4000/auth/author](https://localhost:4000/auth/author)
 
 
 
@@ -70,14 +68,13 @@ npm run dev
 
 
 #### method: POST
-
 #### Params
 <ul>
   <li>blog</li>
 </ul>
 
 
-[link](https://localhost:4000/blog/blogs)
+[https://localhost:4000/blog/blogs](https://localhost:4000/blog/blogs)
 
 
 
@@ -86,8 +83,7 @@ npm run dev
 
 #### method: GET
 
-
-[link](https://localhost:4000/blog/blogs)
+[https://localhost:4000/blog/blogs](https://localhost:4000/blog/blogs)
 
 
 
@@ -96,4 +92,4 @@ npm run dev
 
 #### method: GET
 
-[link](https://localhost:4000/blog/blogs/:emailId)
+[https://localhost:4000/blog/blogs/:emailId](https://localhost:4000/blog/blogs/:emailId)
